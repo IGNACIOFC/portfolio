@@ -1,0 +1,17 @@
+.heroContainer{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h1{
+    font-size: 5rem;
+    letter-spacing: -0.5vw;
+    word-spacing: 1rem;
+  }
+}
+
+.imgContainer{
+  background: lightblue;
+  height: 5rem;
+  width: 5rem;
+  border-radius: 100%;
+}

@@ -1,0 +1,14 @@
+.navbarContainer {
+  display: flex;
+  justify-content: flex-end;
+  padding: 1rem;
+  border: 1px solid black;
+
+  a{
+    margin-right: 1rem;
+    &:hover{
+      text-decoration: underline;
+      cursor: pointer;
+    }
+  }
+}
