@@ -14,7 +14,7 @@ export default function Hero () {
       </h4>
 
       <div className={styles.btnContainer}>
-        <button className={styles.contactButton}>Contact me</button>
+        <button className={styles.contactButton}>Contact me 👋</button>
         <button className={styles.workButton}><BsArrowDownCircle /> see my work</button>
       </div>
       <div className={styles.arrowDown}>
