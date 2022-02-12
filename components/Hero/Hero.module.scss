@@ -2,16 +2,153 @@
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
+  padding-top: 4rem;
+  max-width: 90vw;
+  height: 90vh;
   h1{
-    font-size: 5rem;
+    font-size: 6rem;
+    font-weight: 900;
     letter-spacing: -0.5vw;
     word-spacing: 1rem;
+    margin: 0;
+  }
+  h4{
+    font-size: 2rem;
+    font-weight: 200;
+    line-height: 3rem;
+    max-width: 720px;
+  }
+}
+@media (min-width: 2000px) {
+  .heroContainer{
+    padding-top: 1rem;
+    h1{
+      font-size: 9rem;
+    }
+    h4{
+      font-size: 3rem;
+    }
   }
 }
 
+@media (max-width: 600px) {
+  .heroContainer{
+    padding-top: 3rem;
+    h1{
+      font-size: 4rem;
+    }
+    h4{
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+}
+
+.logo{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  padding: 2rem;
+  p{
+    font-weight: 700;
+  }
+}
 .imgContainer{
-  background: lightblue;
+  background: black;
   height: 5rem;
   width: 5rem;
   border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../../public/myPic.jpeg');
+  background-position: center;
+  background-size: cover;
+  img{
+    width: 100%;
+  }
+}
+
+@media (max-width: 600px) {
+  .logo{
+    flex-direction: column;
+    gap: 0;
+    padding: 0.5rem;
+  }
+  .imgContainer{
+    height: 3.5rem;
+    width: 3.5rem;
+    h1{
+      font-size: 4rem;
+    }
+    h4{
+      font-size: 1.2rem;
+      line-height: 1.5rem;
+    }
+  }
+}
+
+.btnContainer{
+  display: flex;
+  gap: 2rem;
+  .contactButton{
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.1rem;
+    background: black;
+    color: white;
+    border: none;
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    &:hover{
+      text-decoration: underline 2px;
+    }
+  }
+
+  .workButton{
+    cursor: pointer;
+    font-weight: 300;
+    font-size: 1.1rem;
+    background: none;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.5rem;
+    &:hover{
+      text-decoration: underline 2px;
+    }
+  }
+}
+
+.arrowDown {
+  font-size: 2rem;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+}
+
+@media (max-width: 600px) {
+  .btnContainer{
+    gap: 1rem;
+    .contactButton {
+      padding: 0.7rem 1.4rem;
+      font-size: 0.9rem;
+      gap: 0.2rem;
+    }
+  }
+}
+
+@media (min-width: 2000px) {
+  .btnContainer{
+    gap: 1rem;
+    button {
+      font-size: 1.5rem;
+      padding: 1.5rem 5rem;
+      gap: 0.2rem;
+    }
+  }
 }

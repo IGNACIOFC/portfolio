@@ -3,6 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
+import Technologies from '../components/Technologies/Technologies'
 
 export default function Home() {
   return (
@@ -16,6 +17,7 @@ export default function Home() {
       <Navbar />
       <main className={styles.main}>
         <Hero />
+        <Technologies />
       </main>
 
       <footer className={styles.footer}>

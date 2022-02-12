@@ -2,10 +2,14 @@
   display: flex;
   justify-content: flex-end;
   padding: 1rem;
-  border: 1px solid black;
+  border-bottom: 1px solid lightgray;
+  align-items: center;
 
   a{
-    margin-right: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding-right: 2rem;
     &:hover{
       text-decoration: underline;
       cursor: pointer;
