@@ -4,6 +4,7 @@ import styles from '../styles/Home.module.css'
 import Navbar from '../components/Navbar/Navbar'
 import Hero from '../components/Hero/Hero'
 import Technologies from '../components/Technologies/Technologies'
+import Projects from '../components/Projects/Projects'
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
       <main className={styles.main}>
         <Hero />
         <Technologies />
+        <Projects />
       </main>
 
       <footer className={styles.footer}>

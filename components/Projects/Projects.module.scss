@@ -1,0 +1,54 @@
+.projectsContainer{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 2rem;
+  .projectsTitleContainer{
+    h3{
+      font-size: 2rem;
+      font-weight: 700;
+      margin: 0 0 1rem 0;
+      max-width: 720px;
+      line-height: 2.5rem;
+    }
+    p{
+      font-size: 1.5rem;
+      font-weight: 200;
+      line-height: 2rem;
+      max-width: 720px;
+      margin: 0 0 3rem 0;
+    }
+  }
+  .projectList {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;  
+  }
+}
+
+.projectCard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width:95%;
+  max-width: 1080px;
+  background-image: url('../../public/nubes.png');
+  background-color: #FFC6CF;
+  border-radius: 4px;
+  .projectInfo {
+    width: 30%;
+  }
+  .projectImg {
+    margin: 1rem;
+  }
+  img {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 4px;
+  }
+}

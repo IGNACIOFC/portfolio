@@ -17,9 +17,6 @@ export default function Hero () {
         <button className={styles.contactButton}>Contact me 👋</button>
         <button className={styles.workButton}><BsArrowDownCircle /> see my work</button>
       </div>
-      <div className={styles.arrowDown}>
-        <BsArrowDown />
-      </div>
     </div>
   )
 }
