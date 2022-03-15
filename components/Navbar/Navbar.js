@@ -5,7 +5,7 @@ export default function Navbar () {
   return (
     <div className={styles.navbarContainer}>
       <a> <BsLayoutTextSidebarReverse /> Blog</a>
-      <a><BsGithub /> GitHub</a>
+      <a href='https://www.github.com/IGNACIOFC'><BsGithub /> GitHub</a>
     </div>
   )
 }
