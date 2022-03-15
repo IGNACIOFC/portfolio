@@ -10,7 +10,7 @@ export default function Hero () {
       </div>
       <h1>Software Developer</h1>
       <h4>
-        I'm a Software Developer based in Madrid, Spain. Business oriented and experienced with all stages of the development cycle.
+        I am a Software Developer based in Madrid, Spain. Business oriented and experienced with all stages of the development cycle.
       </h4>
 
       <div className={styles.btnContainer}>
